@@ -10,7 +10,7 @@ fn pow(mut n: u64, mut m: u64, p: u64) -> u64 {
     ret
 }
 
-pub fn private_key(p: u64) -> u64 {
+pub fn private_key(_p: u64) -> u64 {
     2
 }
 
