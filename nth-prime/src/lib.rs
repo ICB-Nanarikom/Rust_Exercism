@@ -5,7 +5,7 @@ pub fn nth(n: u32) -> u32 {
     flag.resize(N, 0);
     pri.resize(N, 0);
     let mut cnt = 0;
-    for i in 2..N{
+    for i in 2..N {
         if flag[i] == 0 {
             pri[cnt] = i as u32;
             cnt += 1;
