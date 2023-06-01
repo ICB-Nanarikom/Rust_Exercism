@@ -1,24 +1,21 @@
 {
   "authors": [
-    "gregcline"
+    "IanWhitney"
   ],
   "contributors": [
-    "AndrewKvalheim",
+    "ashleygwilliams",
     "ClashTheBunny",
     "coriolinus",
     "cwhakes",
     "efx",
     "ErikSchierboom",
     "IanWhitney",
-    "ktomsic",
     "lutostag",
     "mkantor",
-    "navossoc",
     "nfiles",
     "petertseng",
     "rofrol",
     "stringparser",
-    "thvdburgt",
     "xakon",
     "ZapAnton"
   ],
@@ -28,13 +25,13 @@
       "Cargo.toml"
     ],
     "test": [
-      "tests/acronym.rs"
+      "tests/sieve.rs"
     ],
     "example": [
       ".meta/example.rs"
     ]
   },
-  "blurb": "Convert a long phrase to its acronym.",
-  "source": "Julien Vanier",
-  "source_url": "https://github.com/monkbroc"
+  "blurb": "Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number.",
+  "source": "Sieve of Eratosthenes at Wikipedia",
+  "source_url": "http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes"
 }
