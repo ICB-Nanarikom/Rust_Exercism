@@ -76,7 +76,7 @@ pub fn encode(mut n: u64) -> String {
         n /= 1000;
     }
 
-    v.into_iter().rev().filter(|(n, it)| *n > 0).map(|(n, it)| {
-        triple(n) + " " + it + " "
+    v.into_iter().rev().map(|(n, it)| {
+        if n > 0 { triple(n) + " " + it + " " } else { String::new() }
     }).collect::<String>().trim_end().to_string()
 }
